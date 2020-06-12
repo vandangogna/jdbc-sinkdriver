@@ -29,8 +29,9 @@
     2.  `Driver.java` will call the `DBConnector` class to read the cofiguration, create a database connection and insert data into the specifid database tables.
 
 
-## Running from command line / terminal
-1.  Using a terminal or a command prompt execute the following:
+## Build and execute from command line / terminal
+1.  Open a terminal and run the command `mvn clean package` to build the project:
+1.  To execute use the terminal to execute the following:
     ```
     java -jar <path_to_jar>.jar
     ```
