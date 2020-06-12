@@ -1,4 +1,4 @@
-# SINKDRIVE -- better name
+# JDBC-SINKDRIVER
 
 ### This sample driver works is meant to be used with IBM-MESSAGING/KAFKA-CONNECT-JDBC-SINK to test its code again SQL DBs such as DB2, MYSQL, POSTGRES, etc..
 
