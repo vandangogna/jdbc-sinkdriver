@@ -4,7 +4,7 @@
 
 ### General Instructions
 1.  Download and build the code from <https://github.com/ibm-messaging/kafka-connect-jdbc-sink.git>.
-1.  Get the JAR file from the step above and make it available via a public / private / local maven repository.  If the Jar file is already available in a repo then the 1st step is not required.  Add the JAR file to you local maven repository, see example below:
+1.  Get the JAR file from the step above and make it available via a public / private / local maven repository.  If the jar file is already available in a repo then the 1st step is not required.  (Optional) Add the JAR file to your local maven repository, see example below:
     ```
     mvn install:install-file -Dfile=<path_to_jar_/kafka-connect-jdbc-sink-0.0.1-SNAPSHOT-jar-with-dependencies.jar> -DgroupId=com.ibm.eventstreams.connect -DartifactId=kafka-connect-jdbc-sink -Dversion=<upate-version-0.0.1-SNAPSHOT>
     ```
@@ -17,7 +17,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </dependency>
     ```
-1.  Make sure that the `config` directory located in `src/config` has the following items:
+1.  Make sure that the `config` directory is located in `src/config` and it has the following items:
     
     1.  db.config.properties - configuration settings
     1.  schema.json - describes the data schema 
